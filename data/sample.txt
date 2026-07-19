@@ -1,0 +1,7 @@
+Hamburg is the second-largest city in Germany and a major European tech hub.
+The RAG Knowledge Assistant ingests plain-text documents, splits them into
+chunks, embeds each chunk into a vector, and retrieves the most relevant
+passages to ground an LLM's answer. This reduces hallucination because the
+model answers only from retrieved context. The system supports OpenAI
+embeddings and generation, and falls back to an offline hashing embedding and
+extractive answering when no API key is present.
